@@ -14,9 +14,10 @@ import {
     figma,
     docker,
     Plymouth,
-    central,
     Ropemakers,
     Morrisons,
+    Bluescreen,
+    OutOut,
     carrent,
     jobit,
     tripguide,
@@ -73,20 +74,12 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
     },
     {
         name: "Three JS",
@@ -108,16 +101,13 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Barman",
+        title: "Bartender",
         company_name: "The Ropemakers",
         icon: Ropemakers,
         iconBg: "#E6DEDD",
         date: "2019 - 2022",
         points: [
-            "Serving behind the bar, including barrel changes and cleaning.",
-            "Managerial tasks: such as cashing up, training staff, locking up and running shifts.",
-            "Barman, Coffee barista and waiting tables.",
-            "Dealing with difficult situations like bar fights, structural damage and first aid.",
+            "For my first year working here, I worked as a waiter. Waiting on tables and providing great customer service. From my second year onwards I worked on the bar, whilst continuing to wait on tables, operating the coffee machine and general cleaning. By the end of my time here, I was running shifts, training new staff, cashing up the tills, closing down the pub and changing barrels/operating the cellar.",
         ],
     },
     {   
@@ -125,44 +115,29 @@ const experiences = [
         company_name: "Morrisons",
         icon: Morrisons,
         iconBg: "#383E56",
-        date: "2022 - Present",
+        date: "2022 - 2023",
         points: [
-            "Trained in several departments: produce, fresh, tills, home delivery.",
-            "Tasks such as gap scans, code checking, restocking and helping customers when ever possible.",
-            "Across two stores.",
-        ],
-    },
-    {
-        title: "Student Ambassador",
-        company_name: "University of Plymouth",
-        icon: Plymouth,
-        iconBg: "#E6DEDD",
-        date: "2023 - Present",
-        points: [
-            "This job is ver diverse in responsbilities from campus tours to clearing helplines.",
-            "Highly social situations providing help to potential students, current students and the public.",
+            "During this time I primarily worked in produce, however would always be helping other departments where possible and so I also worked in: home delivery, checkouts, the cafe, fresh and the garden center. This helped me to develop a range of skills and allowed me to have a better understanding of how the store was run. As a result I was able to provide better customer service and leave the customer feeling as if I went above and beyond.",
         ],
     },
     {
         title: "Club Bartender",
         company_name: "Out Out Ibiza",
-        icon: Plymouth,
+        icon: OutOut,
         iconBg: "#E6DEDD",
-        date: "2023 - Present",
+        date: "2023 - 2024",
         points: [
-            "This job is ver diverse in responsbilities from campus tours to clearing helplines.",
-            "Highly social situations providing help to potential students, current students and the public.",
+            "Originally hired as a bartender for their club, I branched out into other roles; PR and bartending the main bar downstairs. This is a fast pasted environment requiring me to adapt and problem solve quickly.",
         ],
     },
     {
         title: "Cyber Security",
         company_name: "BluescreenIT (BIT group)",
-        icon: Plymouth,
+        icon: Bluescreen,
         iconBg: "#E6DEDD",
-        date: "2023 - Present",
+        date: "2024 - Present",
         points: [
-            "This job is ver diverse in responsbilities from campus tours to clearing helplines.",
-            "Highly social situations providing help to potential students, current students and the public.",
+            "Will be updated shortly",
         ],
     },
 ];
@@ -187,10 +162,10 @@ const testimonials = [
     {
         testimonial:
             "Future refrence",
-        name: "Unknown",
-        designation: "N/A",
-        company: "Not Applicable",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        name: "Hayden Moore",
+        designation: "General Manager",
+        company: "OutOut Ibiza",
+        image: "https://media.licdn.com/dms/image/D5603AQGWZfGKEagpBA/profile-displayphoto-shrink_100_100/0/1678737877832?e=1709164800&v=beta&t=uW6rCP2n3e1gRWjtNJuZ5FWwdVLiy-_u5AEAdpiKawU",
     },
 ];
 
@@ -244,7 +219,7 @@ const projects = [
         {
         name: "Portfolio",
         description:
-            "This webiste, build in order to demostrate my ability and provide an easy way to contact me. Using a range of frameworks that I had never user before.",
+            "This webiste was built in order to demostrate my ability and provide an easy way to contact me. Using a range of frameworks that I had never user before.",
         tags: [
             {
             name: "React",

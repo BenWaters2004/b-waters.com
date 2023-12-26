@@ -21,8 +21,9 @@ import threejs from "./tech/threejs.svg";
 
 import Plymouth from "./company/Plym.png";
 import Morrisons from "./company/Morrisons.png";
-import central from "./company/central.png";
+import Bluescreen from "./company/Bluescreen.jfif";
 import Ropemakers from "./company/Ropemakers.png";
+import OutOut from "./company/OutOut.jfif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -49,8 +50,9 @@ export {
   threejs,
   Plymouth,
   Morrisons,
-  central,
+  Bluescreen,
   Ropemakers,
+  OutOut,
   carrent,
   jobit,
   tripguide,
