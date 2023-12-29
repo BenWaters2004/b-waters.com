@@ -1,11 +1,11 @@
 # b-waters.com - My Portfolio
 This webiste was built in order to demostrate my ability and provide an easy way to contact me.
 ## Table of Contents
-- [Technologies Used](https://github.com/BenWaters2004/b-waters.com/main/README.md#technologies-used)
+- [Technologies Used](https://github.com/BenWaters2004/b-waters.com?tab=readme-ov-file#technologies-used)
 
-- [Website Visuales](https://github.com/BenWaters2004/b-waters.com/main/README.md#website-visuals)
+- [Website Visuales](https://github.com/BenWaters2004/b-waters.com?tab=readme-ov-file#website-visuals)
 
-- [Refrences](https://github.com/BenWaters2004/b-waters.com/edit/main/README.md#Refrences)
+- [Refrences](https://github.com/BenWaters2004/b-waters.com?tab=readme-ov-file#refrences)
 ## Technologies Used
 Throughout creating this portfolio website, I used several technologies including ones I hadn't used before.
 - React
