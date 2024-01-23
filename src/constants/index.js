@@ -131,8 +131,8 @@ const experiences = [
         ],
     },
     {
-        title: "Cyber Security",
-        company_name: "BluescreenIT (BIT group)",
+        title: "Junior DevSec Ops Analyst",
+        company_name: "BIT Security (BIT group)",
         icon: Bluescreen,
         iconBg: "#E6DEDD",
         date: "2024 - Present",
