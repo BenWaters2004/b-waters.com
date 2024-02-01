@@ -49,10 +49,10 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a student at the University of Plymouth, studying Cyber Security, 
-        however I also have a keen intrest in software devlopment. I am experienced in 
+        however I also have a keen interest in software development. I am experienced in 
         languages like JavaScript, PHP, C#, HTML and CSS and frameworks like React, Node.Js and Three.Js. 
-        In the past I have worked several customer service jobs, providing me with skills such as comunication, 
-        iniative and problem solving. Which are all vital in the technology industry.
+        In the past I have worked several customer service jobs, providing me with skills such as communication, 
+        initative and problem solving, Which are all vital in the technology industry.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -6,14 +6,11 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
     docker,
-    Plymouth,
     Ropemakers,
     Morrisons,
     Bluescreen,
@@ -100,46 +97,46 @@ const technologies = [
 ];
 
 const experiences = [
-    {
-        title: "Bartender",
-        company_name: "The Ropemakers",
-        icon: Ropemakers,
-        iconBg: "#E6DEDD",
-        date: "2019 - 2022",
-        points: [
-            "For my first year working here, I worked as a waiter. Waiting on tables and providing great customer service. From my second year onwards I worked on the bar, whilst continuing to wait on tables, operating the coffee machine and general cleaning. By the end of my time here, I was running shifts, training new staff, cashing up the tills, closing down the pub and changing barrels/operating the cellar.",
-        ],
-    },
-    {   
-        title: "Customer Assistant",
-        company_name: "Morrisons",
-        icon: Morrisons,
-        iconBg: "#383E56",
-        date: "2022 - 2023",
-        points: [
-            "During this time I primarily worked in produce, however would always be helping other departments where possible and so I also worked in: home delivery, checkouts, the cafe, fresh and the garden center. This helped me to develop a range of skills and allowed me to have a better understanding of how the store was run. As a result I was able to provide better customer service and leave the customer feeling as if I went above and beyond.",
-        ],
-    },
-    {
-        title: "Club Bartender",
-        company_name: "Out Out Ibiza",
-        icon: OutOut,
-        iconBg: "#E6DEDD",
-        date: "2023 - 2024",
-        points: [
-            "Originally hired as a bartender for their club, I branched out into other roles; PR and bartending the main bar downstairs. This is a fast pasted environment requiring me to adapt and problem solve quickly.",
-        ],
-    },
-    {
-        title: "Junior DevSec Ops Analyst",
-        company_name: "BIT Security (BIT group)",
-        icon: Bluescreen,
-        iconBg: "#E6DEDD",
-        date: "2024 - Present",
-        points: [
-            "Will be updated shortly",
-        ],
-    },
+  {
+    title: "Junior DevSec Ops Analyst",
+    company_name: "BIT Security (BIT group)",
+    icon: Bluescreen,
+    iconBg: "#E6DEDD",
+    date: "2024 - Present",
+    points: [
+        "Will be updated shortly",
+    ],
+  },
+  {
+    title: "Club Bartender",
+    company_name: "Out Out Ibiza",
+    icon: OutOut,
+    iconBg: "#E6DEDD",
+    date: "2023 - 2024",
+    points: [
+        "Originally hired as a bartender for their club, I branched out into other roles; PR and bartending the main bar downstairs. This is a fast paced environment requiring me to adapt and problem solve quickly.",
+    ],
+  },
+  {   
+    title: "Customer Assistant",
+    company_name: "Morrisons",
+    icon: Morrisons,
+    iconBg: "#383E56",
+    date: "2022 - 2023",
+    points: [
+        "During this time I primarily worked in produce, however would always be helping other departments where possible and so I also worked in: home delivery, checkouts, the cafe, fresh and the garden center. This helped me to develop a range of skills and allowed me to have a better understanding of how the store was run. As a result I was able to provide better customer service and leave the customer feeling as if I went above and beyond.",
+    ],
+  },
+  {
+      title: "Bartender",
+      company_name: "The Ropemakers",
+      icon: Ropemakers,
+      iconBg: "#E6DEDD",
+      date: "2019 - 2022",
+      points: [
+          "For my first year working here, I worked as a waiter. Waiting on tables and providing great customer service. From my second year onwards I worked on the bar, whilst continuing to wait on tables, operating the coffee machine and general cleaning. By the end of my time here, I was running shifts, training new staff, cashing up the tills, closing down the pub and changing barrels/operating the cellar.",
+      ],
+  },
 ];
 
 const testimonials = [
@@ -154,9 +151,9 @@ const testimonials = [
     {
         testimonial:
             "Coming Soon",
-        name: "Sean Harris",
-        designation: "Senior Manager",
-        company: "Morrisons",
+        name: "Clay Bryan",
+        designation: "Security Team Lead",
+        company: "BIT Security",
         image: "https://media.licdn.com/dms/image/D4E03AQE172jJKQ3QdQ/profile-displayphoto-shrink_800_800/0/1681927601973?e=2147483647&v=beta&t=hjufZIRkC-Gtyu04d61Ge3NYS3BiA1WLZ5U-r7_s4Lg",
     },
     {
@@ -170,77 +167,73 @@ const testimonials = [
 ];
 
 const projects = [
-    {
-        name: "Friend Bubble",
-        description:
-            "An encrypted social media network, to chat and meet new people. Created in 2022 for my A-level computer science project. All messages are encrypted",
-        tags: [
-            {
-            name: "PHP",
-            color: "blue-text-gradient",
-            },
-            {
-            name: "HTML",
-            color: "green-text-gradient",
-            },
-            {
-            name: "CSS",
-            color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/BenWaters2004/friend-bubble.org",
+  {
+    name: "Arterne CIC",
+    description:
+      "This Android application was created for Arterne CIC a mental health charity based in Plymouth, with the goal of providing mental health infomation and suppport to thoes who need it. This app is currently in production but will be released in May.",
+    tags: [
+      {
+      name: "Java",
+      color: "blue-text-gradient",
+      },
+      {
+      name: "ROOM",
+      color: "green-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "b-waters.com",
+  },
+  {
+    name: "This Portfolio",
+    description:
+      "This webiste was built in order to demostrate my ability and provide an easy way to contact me. Using a range of frameworks that I had never user before for example ThreeJs which was used to created the 3D elements of this page.",
+    tags: [
+      {
+      name: "React",
+      color: "blue-text-gradient",
+      },
+      {
+      name: "Vite",
+      color: "green-text-gradient",
+      },
+      {
+      name: "Three.Js",
+      color: "pink-text-gradient",
+      },
+      {
+      name: "tailwindCSS",
+      color: "yellow-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/BenWaters2004/b-waters.com",
+  },
+  {
+    name: "Fresh Starts",
+    description:
+      "Single page application, for a social media network. Designed to meet university students studying at other universities or in other courses. This repository is private however my contribution can be viewed in the repository linked.",
+    tags: [
+        {
+        name: "JavaScript",
+        color: "blue-text-gradient",
         },
         {
-        name: "Fresh Starts",
-        description:
-            "Single page application, for a social media network. Designed to meet university students studying at other universities or in other courses.",
-        tags: [
-            {
-            name: "JavaScript",
-            color: "blue-text-gradient",
-            },
-            {
-            name: "C#",
-            color: "green-text-gradient",
-            },
-            {
-            name: "HTML",
-            color: "pink-text-gradient",
-            },
-            {
-            name: "CSS",
-            color: "yellow-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        name: "C#",
+        color: "green-text-gradient",
         },
         {
-        name: "Portfolio",
-        description:
-            "This webiste was built in order to demostrate my ability and provide an easy way to contact me. Using a range of frameworks that I had never user before.",
-        tags: [
-            {
-            name: "React",
-            color: "blue-text-gradient",
-            },
-            {
-            name: "Vite",
-            color: "green-text-gradient",
-            },
-            {
-            name: "Three.Js",
-            color: "pink-text-gradient",
-            },
-            {
-            name: "tailwindCSS",
-            color: "yellow-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+        name: "HTML",
+        color: "pink-text-gradient",
+        },
+        {
+        name: "CSS",
+        color: "yellow-text-gradient",
+        },
+    ],
+    image: jobit,
+    source_code_link: "b-waters.com",
+  },
 ];
 
 export { technologies, experiences, testimonials, projects, SocialLinks };
