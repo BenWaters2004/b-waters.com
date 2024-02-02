@@ -58,10 +58,22 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === "CV" ? (
+                <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+                  {nav.title}
+                </a>
+              ) : nav.id === "Projects" ? (
+                <a href="/Projects.html" rel="noopener noreferrer">
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
+
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

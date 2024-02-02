@@ -28,12 +28,20 @@ export const navLinks = [
     },
     {
         id: "work",
-        title: "Work",
+        title: "Work Experience",
     },
     {
         id: "contact",
         title: "Contact",
-    },
+  },
+  {
+    id: "CV",
+    title: "My CV",
+  },
+  {
+    id: "Projects",
+    title: "All Projects"
+  }
 ];
 
 const SocialLinks = [
