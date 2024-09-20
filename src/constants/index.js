@@ -24,11 +24,11 @@ import {
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "About Me",
     },
     {
         id: "work",
-        title: "Work Experience",
+        title: "All Projects",
     },
     {
         id: "contact",
@@ -38,10 +38,6 @@ export const navLinks = [
     id: "CV",
     title: "My CV",
   },
-  {
-    id: "Projects",
-    title: "All Projects"
-  }
 ];
 
 const SocialLinks = [
@@ -112,7 +108,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2024 - Present",
     points: [
-        "Will be updated shortly",
+        "In this role my responsibilities encompass website development as well as the implementation and maintenance of PESA - a comprehensive system dedicated to facilitating DBS (Disclosure and Barring Service) and BPSS (Baseline Personnel Security Standard) screening processes.",
+        "Due to this being my first role in the industry, there was also a strong focus on learning. I dedicated an hour a day to learning and improving in my role, this included watching what/how other teams in the security operations center do/function.",
     ],
   },
   {
@@ -162,7 +159,7 @@ const testimonials = [
         name: "Clay Bryan",
         designation: "Security Team Lead",
         company: "BIT Security",
-        image: "https://media.licdn.com/dms/image/D4E03AQE172jJKQ3QdQ/profile-displayphoto-shrink_800_800/0/1681927601973?e=2147483647&v=beta&t=hjufZIRkC-Gtyu04d61Ge3NYS3BiA1WLZ5U-r7_s4Lg",
+        image: "https://media.licdn.com/dms/image/C4D03AQG4GqdWMQ_e6A/profile-displayphoto-shrink_100_100/0/1574359130794?e=1720051200&v=beta&t=QT780DyuJlxR4HIVIYjnlBle9nBYllJ9iDtr0spYaYM",
     },
     {
         testimonial:
@@ -170,7 +167,7 @@ const testimonials = [
         name: "Hayden Moore",
         designation: "General Manager",
         company: "OutOut Ibiza",
-        image: "https://media.licdn.com/dms/image/D5603AQGWZfGKEagpBA/profile-displayphoto-shrink_100_100/0/1678737877832?e=1709164800&v=beta&t=uW6rCP2n3e1gRWjtNJuZ5FWwdVLiy-_u5AEAdpiKawU",
+        image: "https://media.licdn.com/dms/image/D5603AQGWZfGKEagpBA/profile-displayphoto-shrink_100_100/0/1678737877832?e=1720051200&v=beta&t=Tk26TqqvGXtH9Thhpt0EwIup2K0_gBB8YIWWF69L4OM",
     },
 ];
 
@@ -193,29 +190,29 @@ const projects = [
     source_code_link: "b-waters.com",
   },
   {
-    name: "This Portfolio",
+    name: "BIT Group Websites",
     description:
-      "This webiste was built in order to demostrate my ability and provide an easy way to contact me. Using a range of frameworks that I had never user before for example ThreeJs which was used to created the 3D elements of this page.",
+      "All three websites were originally created using WordPress. In order to give us more control and improve SEO, I coded all three websites in PHP with the Laravel framework. As well as the standard websites, features such as dynamic page creation, automatically updating long-tail pages and training course pages were implemented.",
     tags: [
       {
-      name: "React",
+      name: "Laravel",
       color: "blue-text-gradient",
       },
       {
-      name: "Vite",
+      name: "PHP",
       color: "green-text-gradient",
       },
       {
-      name: "Three.Js",
+      name: "Arlo",
       color: "pink-text-gradient",
       },
       {
-      name: "tailwindCSS",
+      name: "Zoho SalesIQ",
       color: "yellow-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/BenWaters2004/b-waters.com",
+    source_code_link: "https://github.com/BenWaters2004/BIT-Group",
   },
   {
     name: "Fresh Starts",

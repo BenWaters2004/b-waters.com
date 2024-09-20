@@ -62,8 +62,12 @@ const Navbar = () => {
                 <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
                   {nav.title}
                 </a>
-              ) : nav.id === "Projects" ? (
-                <a href="/Projects.html" rel="noopener noreferrer">
+              ) : nav.id === "about" ? (
+                <a href="/About">
+                  {nav.title}
+                </a>
+              ) : nav.id === "work" ? (
+                <a href="/Projects">
                   {nav.title}
                 </a>
               ) : (

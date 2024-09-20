@@ -21,7 +21,7 @@ import threejs from "./tech/threejs.svg";
 
 import Plymouth from "./company/Plym.png";
 import Morrisons from "./company/Morrisons.png";
-import Bluescreen from "./company/Bluescreen.jfif";
+import Bluescreen from "./company/BITgroup.png";
 import Ropemakers from "./company/Ropemakers.png";
 import OutOut from "./company/OutOut.jfif";
 

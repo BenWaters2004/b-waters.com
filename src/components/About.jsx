@@ -49,8 +49,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a student at the University of Plymouth, studying Cyber Security, 
-        however I also have a keen interest in software development. I am experienced in 
-        languages like JavaScript, PHP, C#, HTML and CSS and frameworks like React, Node.Js and Three.Js. 
+        I am also a Jr DevSec Ops. I am experienced in 
+        languages: PHP, C#, HTML and CSS and frameworks like Laravel, Node.Js and Three.Js. 
         In the past I have worked several customer service jobs, providing me with skills such as communication, 
         initative and problem solving, Which are all vital in the technology industry.
       </motion.p>
