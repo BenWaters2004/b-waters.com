@@ -1,11 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/home'
 import Client from './pages/Client'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import NoPage from './pages/NoPage'
-
-import { useState } from 'react'
 
 function App() {
 
