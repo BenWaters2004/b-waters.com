@@ -25,9 +25,14 @@ import Bluescreen from "./company/BITgroup.png";
 import Ropemakers from "./company/Ropemakers.png";
 import OutOut from "./company/OutOut.jfif";
 
+
+import BITSecurity from "./BITSecurity.png";
+import BITTraining from "./BITTraining.png";
+import Arterne from "./Arterne.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -56,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  BITSecurity,
+  BITTraining,
+  Arterne
 };

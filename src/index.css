@@ -372,3 +372,7 @@
   height: 80vh;
   display: flex;
 }
+
+#projects {
+  margin-inline: 50px;
+}

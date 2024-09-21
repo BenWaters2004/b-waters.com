@@ -1,6 +1,4 @@
 import {
-    linkedin,
-    github,
     Ropemakers,
     Morrisons,
     Bluescreen,
@@ -8,7 +6,49 @@ import {
     carrent,
     jobit,
     tripguide,
+    BITSecurity,
+    BITTraining,
+    Arterne
 } from "../assets";
+
+const projectsData = [
+  {
+    id: 1,
+    title: "BIT Security",
+    description: "Created for BluescreenIT, using PHP with the Laravel framework. It includes features such as dynamic page creation and a News Blog",
+    image: BITSecurity,
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/BenWaters2004/BIT-Group",
+    previewUrl: "https://thinkbitsecurity.co.uk/",
+  },
+  {
+    id: 2,
+    title: "BIT Training ",
+    description: "Created for BluescreenIT, using WordPress. It includes features such as Arlo Training Courses and a News Blog",
+    image: BITTraining,
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://thinkbittraining.co.uk/",
+  },
+  {
+    id: 3,
+    title: "Get Classified",
+    description: "An application to simplfy and automate the DBS and BPSS clearance process.",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "#PrivateRepository",
+    previewUrl: "https://classified.getclassified.co.uk/",
+  },
+  {
+    id: 4,
+    title: "Arterne CIC",
+    description: "This Android mobile application was created for Arterne CIC a mental health charity based in Plymouth, with the goal of providing mental health infomation and suppport to thoes who need it.",
+    image: Arterne,
+    tag: ["All", "Mobile"],
+    gitUrl: "#PrivateRepository",
+    previewUrl: "#",
+  },
+];
 
 const projects = [
   {
@@ -106,7 +146,7 @@ export const navLinks = [
 const SocialLinks = [
   {
     title: "Projects Completed",
-    num: projects.length.toString(),
+    num: projectsData.length.toString(),
   },
   {
     title: "Website Visits",
@@ -195,4 +235,4 @@ const testimonials = [
 
 
 
-export { experiences, testimonials, projects, SocialLinks };
+export { experiences, testimonials, projects, SocialLinks, projectsData };
