@@ -28,10 +28,8 @@ import OutOut from "./company/OutOut.jfif";
 
 import BITSecurity from "./BITSecurity.png";
 import BITTraining from "./BITTraining.png";
-import Arterne from "./Arterne.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Arterne from "./Arterne.png";
+import Classified from "./Classified.png";
 
 
 export {
@@ -58,10 +56,8 @@ export {
   Bluescreen,
   Ropemakers,
   OutOut,
-  carrent,
-  jobit,
-  tripguide,
   BITSecurity,
   BITTraining,
-  Arterne
+  Arterne,
+  Classified
 };

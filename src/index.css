@@ -291,6 +291,22 @@
   padding-right: 30px;
 }
 
+@media only screen  and (max-width: 450px) { 
+  .CVButton, .HireMeButton {
+    font-size: 16px;
+    width: 150px;
+  }
+  .CVButton span {
+    padding: 16px 0px;
+  }
+}
+@media only screen  and (max-width: 370px) { 
+  .CVButton, .HireMeButton {
+    font-size: 12px;
+    width: 100px;
+  }
+}
+
 .icon-color {
   color: #aaa6c3; /* Default color */
   transition: color 0.3s ease; /* Smooth transition effect */
@@ -369,10 +385,6 @@
 
 /* 404 Page*/
 .N404Page {
-  height: 80vh;
+  height: 100vh;
   display: flex;
-}
-
-#projects {
-  margin-inline: 50px;
 }

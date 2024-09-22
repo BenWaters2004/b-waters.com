@@ -7,6 +7,8 @@ import { projectsData } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -21,9 +23,10 @@ const ProjectsSection = () => {
     setTag(newTag);
   };
 
-  const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
+  const filteredProjects = projectsData.filter((project) => 
+    project.tag.includes("Highlighted") && (tag === "All" || project.tag.includes(tag))
   );
+  
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
@@ -34,7 +37,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Highlighted Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -42,13 +45,11 @@ const ProjectsSection = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
+          The following 6 projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          links to the project and code repositories. <a href="/Projects" className="text-white">To view all projects in more detail click here! <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff",}} /></a>
         </motion.p>
-      </div>
+      </div><br />
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}

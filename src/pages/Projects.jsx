@@ -1,10 +1,17 @@
-import {  Navbar}  from "../components";
+import { Footer, Contact, Navbar, StarsCanvas, ProjectsAll } from "../components";
+
+
 
 export default function Projects() {
   return (
-    <section>
+    <section className="bg-primary">
       <Navbar />
-      <h1>Projects</h1>
-    </section>
+      <ProjectsAll />
+      <div className='relative z-0'>
+        <Contact />
+        <StarsCanvas />
+        <Footer/>
+      </div>
+  </section>
   )
 }

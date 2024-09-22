@@ -3,11 +3,12 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Experience from "./Experience";
-import Works from "./Works";
-import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
+import ProjectsSection from "./ProjectsSection";
+import Reviews from "./Reviews";
+import ProjectsAll from './ProjectsAll';
 
 
 export {
@@ -15,12 +16,13 @@ export {
   Navbar,
   About,
   Experience,
-  Works,
-  Feedbacks,
   Contact,
+  ProjectsSection,
+  Reviews,
   Footer,
   CanvasLoader,
   EarthCanvas, 
   ComputersCanvas, 
   StarsCanvas,
+  ProjectsAll,
 };

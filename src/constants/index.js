@@ -3,39 +3,37 @@ import {
     Morrisons,
     Bluescreen,
     OutOut,
-    carrent,
-    jobit,
-    tripguide,
     BITSecurity,
     BITTraining,
-    Arterne
+    Arterne,
+    Classified
 } from "../assets";
 
 const projectsData = [
   {
     id: 1,
     title: "BIT Security",
-    description: "Created for BluescreenIT, using PHP with the Laravel framework. It includes features such as dynamic page creation and a News Blog",
+    description: "Created for BluescreenIT, using PHP with the Laravel framework. It includes features such as a News Blog, dynamic page creation and updating to quickly changing content.",
     image: BITSecurity,
-    tag: ["All", "Web"],
+    tag: ["Highlighted", "All", "Web"],
     gitUrl: "https://github.com/BenWaters2004/BIT-Group",
     previewUrl: "https://thinkbitsecurity.co.uk/",
   },
   {
     id: 2,
     title: "BIT Training ",
-    description: "Created for BluescreenIT, using WordPress. It includes features such as Arlo Training Courses and a News Blog",
+    description: "Created for BluescreenIT with WordPress to allow the use of Arlo's plugin. It includes features such as Arlo Training Courses, apprenticeship offers and a News Blog.",
     image: BITTraining,
-    tag: ["All", "Web"],
+    tag: ["Highlighted", "All", "Web"],
     gitUrl: "/",
     previewUrl: "https://thinkbittraining.co.uk/",
   },
   {
     id: 3,
     title: "Get Classified",
-    description: "An application to simplfy and automate the DBS and BPSS clearance process.",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    description: "An application to simplfy and automate the DBS and BPSS clearance process for organisations. Using the DBS API and an admin team, Classified clears over 200 candidates per month.",
+    image: Classified,
+    tag: ["Highlighted", "All", "Web"],
     gitUrl: "#PrivateRepository",
     previewUrl: "https://classified.getclassified.co.uk/",
   },
@@ -44,79 +42,9 @@ const projectsData = [
     title: "Arterne CIC",
     description: "This Android mobile application was created for Arterne CIC a mental health charity based in Plymouth, with the goal of providing mental health infomation and suppport to thoes who need it.",
     image: Arterne,
-    tag: ["All", "Mobile"],
+    tag: ["Highlighted", "All", "Mobile"],
     gitUrl: "#PrivateRepository",
     previewUrl: "#",
-  },
-];
-
-const projects = [
-  {
-    name: "Arterne CIC",
-    description:
-      "This Android application was created for Arterne CIC a mental health charity based in Plymouth, with the goal of providing mental health infomation and suppport to thoes who need it. This app is currently in production but will be released in May.",
-    tags: [
-      {
-      name: "Java",
-      color: "blue-text-gradient",
-      },
-      {
-      name: "ROOM",
-      color: "green-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "b-waters.com",
-  },
-  {
-    name: "BIT Group Websites",
-    description:
-      "All three websites were originally created using WordPress. In order to give us more control and improve SEO, I coded all three websites in PHP with the Laravel framework. As well as the standard websites, features such as dynamic page creation, automatically updating long-tail pages and training course pages were implemented.",
-    tags: [
-      {
-      name: "Laravel",
-      color: "blue-text-gradient",
-      },
-      {
-      name: "PHP",
-      color: "green-text-gradient",
-      },
-      {
-      name: "Arlo",
-      color: "pink-text-gradient",
-      },
-      {
-      name: "Zoho SalesIQ",
-      color: "yellow-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/BenWaters2004/BIT-Group",
-  },
-  {
-    name: "Fresh Starts",
-    description:
-      "Single page application, for a social media network. Designed to meet university students studying at other universities or in other courses. This repository is private however my contribution can be viewed in the repository linked.",
-    tags: [
-        {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-        },
-        {
-        name: "C#",
-        color: "green-text-gradient",
-        },
-        {
-        name: "HTML",
-        color: "pink-text-gradient",
-        },
-        {
-        name: "CSS",
-        color: "yellow-text-gradient",
-        },
-    ],
-    image: jobit,
-    source_code_link: "b-waters.com",
   },
 ];
 
@@ -206,33 +134,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-    {
-        testimonial:
-            "I wish that I could have cloned him.",
-        name: "Geraldine Baker",
-        designation: "Landlady/Owner",
-        company: "The Ropemakers",
-        image: "https://www.marshwoodvale.com/cms/wp-content/uploads/2020/01/Geraldine-Baker.jpg",
-    },
-    {
-        testimonial:
-            "Coming Soon",
-        name: "Clay Bryan",
-        designation: "Security Team Lead",
-        company: "BIT Security",
-        image: "https://media.licdn.com/dms/image/C4D03AQG4GqdWMQ_e6A/profile-displayphoto-shrink_100_100/0/1574359130794?e=1720051200&v=beta&t=QT780DyuJlxR4HIVIYjnlBle9nBYllJ9iDtr0spYaYM",
-    },
-    {
-        testimonial:
-            "Future refrence",
-        name: "Hayden Moore",
-        designation: "General Manager",
-        company: "OutOut Ibiza",
-        image: "https://media.licdn.com/dms/image/D5603AQGWZfGKEagpBA/profile-displayphoto-shrink_100_100/0/1678737877832?e=1720051200&v=beta&t=Tk26TqqvGXtH9Thhpt0EwIup2K0_gBB8YIWWF69L4OM",
-    },
-];
 
 
 
-export { experiences, testimonials, projects, SocialLinks, projectsData };
+export { experiences, SocialLinks, projectsData };

@@ -6,7 +6,7 @@ import { SocialLinks } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, num }) => {
+const ServiceCard = ({ index, title, num, maxNum }) => {
   const [count, setCount] = useState(0);
   const [inView, setInView] = useState(false);
   const cardRef = useRef(null);
@@ -36,20 +36,23 @@ const ServiceCard = ({ index, title, num }) => {
 
   useEffect(() => {
     if (inView) {
-      const duration = 3000; // Total animation duration in milliseconds
-      const increment = Math.ceil(num / (duration / 50)); // Update 50 times per second
+      const totalDuration = 1900; // Total animation duration in milliseconds
+      const steps = 50; // Total number of steps (adjust this for smoothness)
+      const globalIncrement = maxNum / steps; // Global step increment based on max number
 
       const interval = setInterval(() => {
         setCount((prevCount) => {
-          if (prevCount + increment >= num) {
-            clearInterval(interval); // Stop when the target number is reached
-            return num;
+          // Increment each number relative to its size, so they finish at the same time
+          const localIncrement = (num / maxNum) * globalIncrement;
+          if (prevCount + localIncrement >= num) {
+            clearInterval(interval);
+            return num; // Ensure the number reaches its target exactly
           }
-          return prevCount + increment;
+          return prevCount + localIncrement;
         });
-      }, 50); // Updates every 50ms (smooth animation)
+      }, totalDuration / steps); // Smooth update every (totalDuration / steps) milliseconds
     }
-  }, [inView, num]);
+  }, [inView, num, maxNum]);
 
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -68,17 +71,10 @@ const ServiceCard = ({ index, title, num }) => {
             className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
           >
             <p className="text-white text-[50px] font-bold text-center">
-              {/* Wrap the number and plus sign in flex */}
               <span className="flex items-center justify-center">
-                {count}
-                {/* Add the plus sign only to the second card */}
-                {index === 1 && (
-                  <span className="text-[40px] ml-1">+</span>
-                )}
-                {/* Add the plus sign only to the second card */}
-                {index === 3 && (
-                  <span className="text-[40px] ml-1">+</span>
-                )}
+                {Math.floor(count)}
+                {index === 1 && <span className="text-[40px] ml-1">+</span>}
+                {index === 3 && <span className="text-[40px] ml-1">+</span>}
               </span>
             </p>
             <h3 className="text-white text-[20px] font-bold text-center">
@@ -92,6 +88,8 @@ const ServiceCard = ({ index, title, num }) => {
 };
 
 const About = () => {
+  const maxNum = Math.max(...SocialLinks.map((link) => parseInt(link.num, 10)));
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -103,17 +101,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a student at the University of Plymouth, studying Cyber Security, I
-        am also a Jr DevSec Ops. I am experienced in languages: PHP, C#, HTML
-        and CSS and frameworks like Laravel, Node.Js and Three.Js. In the past I
-        have worked several customer service jobs, providing me with skills such
-        as communication, initative and problem solving, Which are all vital in
-        the technology industry.
+        I'm a student at the University of Plymouth, studying Cyber Security and a DevSecOps Analyst at BIT Security. With experience in languages: PHP, JavaScript, C#, HTML,
+        and CSS, and frameworks like Laravel, React, and Three.Js. In my spare time I also work as a freelance full stack web developer.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
-        {SocialLinks.map((SocialLinks, index) => (
-          <ServiceCard key={SocialLinks.title} index={index} {...SocialLinks} />
+        {SocialLinks.map((link, index) => (
+          <ServiceCard
+            key={link.title}
+            index={index}
+            title={link.title}
+            num={parseInt(link.num, 10)}
+            maxNum={maxNum} // Pass the largest number as a prop
+          />
         ))}
       </div>
     </>

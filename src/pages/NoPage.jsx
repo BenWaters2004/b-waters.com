@@ -1,4 +1,4 @@
-import { Footer, Navbar } from "../components";
+import { Footer, Contact, Navbar, StarsCanvas } from "../components";
 import "../404.css";
 
 export default function NoPage() {
@@ -18,7 +18,11 @@ export default function NoPage() {
           <p className="output">Good luck.</p>
         </div>
       </div>
-      <Footer />
+      <div className='relative z-0 bg-primary'>
+        <Contact />
+        <StarsCanvas />
+        <Footer/>
+      </div>
     </section>
   )
 }
