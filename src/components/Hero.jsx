@@ -1,7 +1,4 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { ParticlesBackground } from "../utils/particles.jsx"
 
 const Hero = () => {
@@ -11,7 +8,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[300px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div>
+        <div id="heroText">
           
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF] block sm:inline'>Ben Waters</span>

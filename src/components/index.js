@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import ProjectsSection from "./ProjectsSection";
 import Reviews from "./Reviews";
 import ProjectsAll from './ProjectsAll';
+import ProjectAllCard from './ProjectAllCard';
 
 
 export {
@@ -25,4 +26,5 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   ProjectsAll,
+  ProjectAllCard,
 };

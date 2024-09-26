@@ -382,9 +382,66 @@
   }
 }
 
+#filters {
+  animation: Fade;
+  animation-duration: 1s;
+}
+#heroText {
+  animation: Fade;
+  animation-duration: 2s;
+}
+@keyframes Fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 /* 404 Page*/
 .N404Page {
   height: 100vh;
   display: flex;
+}
+
+.search {
+  width: 100%;
+  height: 60px;
+  background-color: #100d25;
+  padding-inline: 50px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  align-items: center; /* Centers icon and input vertically */
+}
+#ProjectsSearch {
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0);
+}
+#ProjectsSearch textarea:focus, input:focus{
+  outline: none;
+}
+.filterButtons {
+  margin-top: 5px;
+  width: 100%;
+  height: 60px;
+}
+.filterButtons button {
+  background-color: #100d25;
+  height: 100%;
+  width: 33%;
+  transition: 0.3s;
+}
+.filterButtons button:first-child {
+  border-bottom-left-radius: 40px;
+  margin-right: 0.5%;
+}
+.filterButtons button:last-child {
+  border-bottom-right-radius: 40px;
+  margin-left: 0.5%;
+}
+.filterButtons button:hover {
+  background-color: #090325;
+}
+
+.filterButtons button.active {
+  background-color: #090325; /* Change background color */
+  font-weight: bold; /* Optional for emphasis */
 }
