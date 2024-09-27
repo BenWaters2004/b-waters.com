@@ -10,6 +10,7 @@ import ProjectsSection from "./ProjectsSection";
 import Reviews from "./Reviews";
 import ProjectsAll from './ProjectsAll';
 import ProjectAllCard from './ProjectAllCard';
+import AboutHero from './AboutHero';
 
 
 export {
@@ -27,4 +28,5 @@ export {
   StarsCanvas,
   ProjectsAll,
   ProjectAllCard,
+  AboutHero,
 };

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { EyeIcon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   const [showModal, setShowModal] = useState(false);
@@ -13,33 +15,39 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       window.open(gitUrl, "_blank");
     }
   };
+  const handleCaseLinkClick = (title) => {
+      window.open(title, "_self");
+  };
 
   return (
     <div>
-      <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover"}}
-      >
-        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
-        <button
-            onClick={() => handleGitLinkClick(gitUrl)}
-            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-            <FontAwesomeIcon icon={faGithub} className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white"/>
-          </button>
-          <a
-            href={previewUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-          </a>
+      <div className="hover:outline rounded-xl">
+        <div
+          className="h-52 md:h-72 rounded-t-xl relative group"
+          style={{ background: `url(${imgUrl})`, backgroundSize: "cover"}}
+        >
+          <div className="overlay rounded-t-xl items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+          <button
+              onClick={() => handleGitLinkClick(gitUrl)}
+              className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <FontAwesomeIcon icon={faGithub} className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white"/>
+            </button>
+            <a
+              href={previewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="text-white rounded-b-xl bg-tertiary py-6 px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <div className="text-white rounded-b-xl bg-tertiary py-6 px-4">
+          <h5 className="text-xl font-semibold mb-2">{title}</h5>
+          <p className="text-[#ADB7BE]">{description}</p>
+          <button className="mt-5 hover:underline" onClick={() => handleCaseLinkClick(title)}>See the case study <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff",}} /></button>
+        </div>
       </div>
 
       {showModal && (

@@ -66,10 +66,6 @@ const Navbar = () => {
                 <a href="/About">
                   {nav.title}
                 </a>
-              ) : nav.id === "work" ? (
-                <a href="/Projects">
-                  {nav.title}
-                </a>
               ) : nav.id === "contact" ? (
                 <a href="#contact" className="contactNav">
                   {nav.title}
