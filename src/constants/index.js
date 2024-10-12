@@ -6,7 +6,8 @@ import {
     BITSecurity,
     BITTraining,
     Arterne,
-    Classified
+    Classified,
+    LSS
 } from "../assets";
 
 const projectsData = [
@@ -58,6 +59,15 @@ const projectsData = [
     company: "Arterne CIC",
     technology: "Java using AndroidStudio and Google Places API",
     HelpFrom: "Olly Veale and Jacob Neubauer",
+  },
+  {
+    id: 5,
+    title: "LSS - Lewis Scaffold Solutions",
+    description: "A proffesional business page to highlight the services they offer, built with JavaScript and React. The client was so happy with the result, they hired me to take on a larger project for them.",
+    image: LSS,
+    tag: ["Highlighted", "All", "Web", "website", "JavaScript", "React", "Vite"],
+    gitUrl: "https://github.com/BenWaters2004/LSS",
+    previewUrl: "https://demo.b-waters.com",
   },
 ];
 

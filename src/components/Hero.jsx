@@ -4,6 +4,8 @@ import { ParticlesBackground } from "../utils/particles.jsx"
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary opacity-100 pointer-events-none z-0"></div>
       <ParticlesBackground />
       <div
         className={`absolute inset-0 top-[300px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -11,7 +13,7 @@ const Hero = () => {
         <div id="heroText">
           
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF] block sm:inline'>Ben Waters</span>
+            Hi, I'm <span className='text-[#13ab88] block sm:inline'>Ben Waters</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a full stack website developer and a cyber security student.
@@ -23,6 +25,8 @@ const Hero = () => {
           
         </div>
       </div>
+
+      
     </section>
   );
 };

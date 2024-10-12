@@ -54,7 +54,7 @@ const ProjectsSection = () => {
   return (
     <>
       <motion.div variants={textVariant()} className="mt-20">
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}><span className="text-[#13ab88]">{"<"}</span>My work <span className="text-[#13ab88]">{"/>"}</span></p>
         <h2 className={`${styles.sectionHeadText}`}>All Projects.</h2>
       </motion.div>
 

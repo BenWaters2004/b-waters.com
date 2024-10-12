@@ -46,7 +46,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
         <div className="text-white rounded-b-xl bg-tertiary py-6 px-4">
           <h5 className="text-xl font-semibold mb-2">{title}</h5>
           <p className="text-[#ADB7BE]">{description}</p>
-          <button className="mt-5 hover:underline" onClick={() => handleCaseLinkClick(title)}>See the case study <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff",}} /></button>
+          <button className="mt-5 hover:underline text-white hover:text-[#13ab88]" onClick={() => handleCaseLinkClick(title)}>See the case study <FontAwesomeIcon icon={faArrowRight} style={{color: "#ffffff",}} /></button>
         </div>
       </div>
 

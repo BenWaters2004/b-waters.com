@@ -11,6 +11,7 @@ import Reviews from "./Reviews";
 import ProjectsAll from './ProjectsAll';
 import ProjectAllCard from './ProjectAllCard';
 import AboutHero from './AboutHero';
+import Tech from './Tech';
 
 
 export {
@@ -29,4 +30,5 @@ export {
   ProjectsAll,
   ProjectAllCard,
   AboutHero,
+  Tech,
 };

@@ -30,6 +30,7 @@ import BITSecurity from "./BITSecurity.png";
 import BITTraining from "./BITTraining.png";
 import Arterne from "./Arterne.png";
 import Classified from "./Classified.png";
+import LSS from "./LSS.png";
 
 
 export {
@@ -59,5 +60,6 @@ export {
   BITSecurity,
   BITTraining,
   Arterne,
-  Classified
+  Classified,
+  LSS
 };

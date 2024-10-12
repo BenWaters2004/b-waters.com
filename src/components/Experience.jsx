@@ -59,20 +59,6 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <div id="heroText" className="mb-60 mt-40">
-        
-        <h1 className={`${styles.heroHeadText} text-white`}>
-          Who am I?
-        </h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I am a full stack website developer and a cyber security student.
-        </p>
-
-        <div className="cta">
-          <a className="HireMeButton" href="#contact">Work with me</a><a className="CVButton" href="/CV.pdf" target="_blank" rel="noopener noreferrer"><span className="text">Download CV</span></a>
-        </div>
-        
-        </div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           Where have I worked

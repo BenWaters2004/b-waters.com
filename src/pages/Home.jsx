@@ -1,4 +1,4 @@
-import { About, Contact, Hero, Navbar, StarsCanvas, Footer, Reviews, ProjectsSection} from "../components";
+import { About, Contact, Hero, Navbar, StarsCanvas, Footer, Reviews, ProjectsSection, Tech } from "../components";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       </div>
       <About />
       <ProjectsSection />
+      <Tech />
       <Reviews />
       <div className='relative z-0'>
         <Contact />
