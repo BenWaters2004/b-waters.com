@@ -1,4 +1,4 @@
-import { EarthCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, StarsCanvas } from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -8,11 +8,9 @@ import CanvasLoader from "./Loader";
 import Footer from "./Footer";
 import ProjectsSection from "./ProjectsSection";
 import Reviews from "./Reviews";
-import ProjectsAll from './ProjectsAll';
-import ProjectAllCard from './ProjectAllCard';
-import AboutHero from './AboutHero';
 import Tech from './Tech';
 import PrivacyStatement from './PrivacyStatement';
+import BITSecurityCont from './BITSecurityCont';
 
 
 export {
@@ -26,11 +24,8 @@ export {
   Footer,
   CanvasLoader,
   EarthCanvas, 
-  ComputersCanvas, 
   StarsCanvas,
-  ProjectsAll,
-  ProjectAllCard,
-  AboutHero,
   Tech,
   PrivacyStatement,
+  BITSecurityCont,
 };

@@ -73,12 +73,8 @@ const projectsData = [
 
 export const navLinks = [
     {
-        id: "about",
-        title: "About Me",
-    },
-    {
         id: "contact",
-        title: "Contact",
+        title: "Contact Me",
     },
     {
       id: "GitHub",

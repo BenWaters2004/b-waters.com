@@ -1,14 +1,12 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectsCard";
-import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 import { projectsData } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 

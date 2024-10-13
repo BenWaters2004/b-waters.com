@@ -62,11 +62,7 @@ const Navbar = () => {
               } hover:text-[#13ab88] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              {nav.id === "about" ? (
-                <a href="/About">
-                  {nav.title}
-                </a>
-              ) : nav.id === "contact" ? (
+              {nav.id === "contact" ? (
                 <a href="#contact" className="contactNav">
                   {nav.title}
                 </a>
@@ -118,9 +114,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  {nav.id === "about" ? (
-                    <a href="/About">{nav.title}</a>
-                  ) : nav.id === "work" ? (
+                  { nav.id === "work" ? (
                     <a href="/Projects">{nav.title}</a>
                   ) : nav.id === "contact" ? (
                     <a href="#contact">{nav.title}</a>

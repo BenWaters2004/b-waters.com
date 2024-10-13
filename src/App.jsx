@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
-import About from './pages/About'
 import NoPage from './pages/NoPage'
 import Privacy from './pages/Privacy'
 import BITSecurity from "./pages/CaseStudies/BITSecurity";
@@ -15,7 +14,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/About" element={<About />} />
           <Route path="/PrivacyPolicy" element={<Privacy />} />
 
           <Route path="/BIT Security" element={<BITSecurity />} />

@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className="footerNav">
           <p><a href="mailto:contact@b-waters.com">contact@b-waters.com</a></p><br />
-          <p><a href="/">Home</a> | <a href="/About">About Me</a> | <a href="#contact">Contact Me</a> | <a href="/PrivacyPolicy">Privacy Policy</a></p>
+          <p><a href="/">Home</a> | <a href="#contact">Contact Me</a> | <a href="/PrivacyPolicy">Privacy Policy</a></p>
         </div>
         <div className="Copyright">
           <p>Copyright © 2024 Ben Waters. All rights reserved.</p>

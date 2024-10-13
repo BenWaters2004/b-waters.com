@@ -1,10 +1,10 @@
-import { Navbar, Footer, Contact, StarsCanvas } from "../../components";
+import { Navbar, Footer, Contact, StarsCanvas, BITSecurityCont } from "../../components";
 
 export default function BITSecurity() {
   return (
     <section className="relative z-0 bg-primary">
       <Navbar />
-      <h1>BITSecurity</h1>
+      <BITSecurityCont />
       
       <div className='relative z-0'>
         <Contact />
