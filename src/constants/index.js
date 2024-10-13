@@ -100,7 +100,7 @@ const SocialLinks = [
     num: "40000",
   },
   {
-    title: "5 star reviews",
+    title: "reviews coming soon",
     num: "0"
   },
   {

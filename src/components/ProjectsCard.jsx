@@ -21,7 +21,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
 
   return (
     <div>
-      <div className="hover:outline rounded-xl">
+      <div className="hover:outline hover:outline-[#13ab88] rounded-xl">
         <div
           className="h-52 md:h-72 rounded-t-xl relative group"
           style={{ background: `url(${imgUrl})`, backgroundSize: "cover"}}

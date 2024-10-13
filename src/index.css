@@ -445,3 +445,65 @@
   background-color: #13ab88; /* Change background color */
   font-weight: bold; /* Optional for emphasis */
 }
+
+.techWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.scrolling-text {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  /* Different speeds for each line */
+  animation: scroll 25s linear infinite;
+}
+
+.reverse-scroll {
+  display: inline-block;
+  white-space: nowrap;
+  animation: reverseScroll 34s linear infinite;
+}
+
+.scroll-text2 {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll2 31s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes reverseScroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
