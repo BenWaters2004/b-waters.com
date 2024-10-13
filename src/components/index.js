@@ -12,6 +12,7 @@ import ProjectsAll from './ProjectsAll';
 import ProjectAllCard from './ProjectAllCard';
 import AboutHero from './AboutHero';
 import Tech from './Tech';
+import PrivacyStatement from './PrivacyStatement';
 
 
 export {
@@ -31,4 +32,5 @@ export {
   ProjectAllCard,
   AboutHero,
   Tech,
+  PrivacyStatement,
 };

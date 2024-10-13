@@ -1,12 +1,16 @@
-import { Navbar, Footer } from "../components";
+import { Navbar, Footer, Contact, StarsCanvas, PrivacyStatement } from "../components";
 
 export default function Privacy() {
   return (
     <section>
       <Navbar />
-      <h1>Privacy</h1>
+      <PrivacyStatement />
       
-      <Footer />
+      <div className='relative z-0'>
+        <Contact />
+        <StarsCanvas />
+        <Footer/>
+      </div>
     </section>
   )
 }

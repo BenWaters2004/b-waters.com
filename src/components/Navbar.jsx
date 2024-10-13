@@ -71,11 +71,11 @@ const Navbar = () => {
                   {nav.title}
                 </a>
               ) : nav.id === "GitHub" ? (
-                <a href="https://github.com/BenWaters2004" target="_blank" rel="noopener noreferrer" className="icon-hover">
+                <a href="https://github.com/BenWaters2004" target="_blank" rel="noopener noreferrer" className="icon-hover" alt="GitHub">
                   <FontAwesomeIcon icon={faGithub} style={{height: "32px",}}/>
                 </a>
               ) : nav.id === "Linkedin" ? (
-                <a href="https://www.linkedin.com/in/benwaters2004/" target="_blank" rel="noopener noreferrer" className="icon-hover">
+                <a href="https://www.linkedin.com/in/benwaters2004/" target="_blank" rel="noopener noreferrer" className="icon-hover" alt="Linkedin">
                   <FontAwesomeIcon icon={faLinkedinIn} style={{height: "32px",}} />
                 </a>
               ) : (
