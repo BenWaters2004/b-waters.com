@@ -2,35 +2,29 @@ import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import Plymouth from "./company/Plym.png";
-import Morrisons from "./company/Morrisons.png";
-import Bluescreen from "./company/BITgroup.png";
-import Ropemakers from "./company/Ropemakers.png";
-import OutOut from "./company/OutOut.jfif";
-
-
 import BITSecurity from "./BITSecurity.png";
-import BITTraining from "./BITTraining.png";
-import Arterne from "./Arterne.png";
-import Classified from "./Classified.png";
-import LSS from "./LSS.png";
+import BITTraining from "./BITTraining2.png";
+import Arterne from "./Arterne2.png";
+import Classified from "./Classified2.png";
+import LSS from "./LSS2.png";
 
 import BITSecurityFullPage from "./BITSecurityFullPage.png";
+import LSSdesign1 from "./LSSdesign1.png";
+import LSSdesign2 from "./LSSdesign2.png";
+import LSSdesign3 from "./LSSdesign3.png";
 
 
 export {
   logo,
   menu,
   close,
-  Plymouth,
-  Morrisons,
-  Bluescreen,
-  Ropemakers,
-  OutOut,
   BITSecurity,
   BITTraining,
   Arterne,
   Classified,
   LSS,
-  BITSecurityFullPage
+  BITSecurityFullPage,
+  LSSdesign1,
+  LSSdesign2,
+  LSSdesign3,
 };

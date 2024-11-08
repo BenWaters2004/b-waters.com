@@ -19,22 +19,19 @@ const Tech = () => {
         <div className="scrolling-text">
           <h4 className="scroll-text">
             <span className="text-[#13ab88]">{"<"}</span>PHP <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>JavaScript <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>HTML <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>CSS <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Tailwind CSS <span className="text-[#13ab88]">{"/>"}</span>
-            {/* Duplicate the content */}
-            <span className="text-[#13ab88]">{"<"}</span>PHP <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>JavaScript <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>HTML <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>CSS <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Tailwind CSS <span className="text-[#13ab88]">{"/>"}</span>
+            {/* Duplicate the content */} <span className="text-[#13ab88]">{"<"}</span>PHP <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>JavaScript <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>HTML <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>CSS <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Tailwind CSS <span className="text-[#13ab88]">{"/>"}</span>
           </h4>
         </div>
         <div className="scrolling-text">
           <h4 className="reverse-scroll">
             <span className="text-[#13ab88]">{"<"}</span>ReactJs <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>MySQL <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Laravel <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Android Studio <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Figma <span className="text-[#13ab88]">{"/>"}</span>
-            {/* Duplicate the content */}
-            <span className="text-[#13ab88]">{"<"}</span>ReactJs <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>MySQL <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Laravel <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Android Studio <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Figma <span className="text-[#13ab88]">{"/>"}</span>
+            {/* Duplicate the content */} <span className="text-[#13ab88]">{"<"}</span>ReactJs <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>MySQL <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Laravel <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Android Studio <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Figma <span className="text-[#13ab88]">{"/>"}</span>
           </h4>
         </div>
         <div className="scrolling-text">
           <h4 className="scroll-text2">
             <span className="text-[#13ab88]">{"<"}</span>Web Design <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Prototyping <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Full Stack Development <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>SEO management <span className="text-[#13ab88]">{"/>"}</span>
-            {/* Duplicate the content */}
-            <span className="text-[#13ab88]">{"<"}</span>Web Design <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Prototyping <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Full Stack Development <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>SEO management <span className="text-[#13ab88]">{"/>"}</span>
+            {/* Duplicate the content */} <span className="text-[#13ab88]">{"<"}</span>Web Design <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Prototyping <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>Full Stack Development <span className="text-[#13ab88]">{"/>"}</span> <span className="text-[#13ab88]">{"<"}</span>SEO management <span className="text-[#13ab88]">{"/>"}</span>
           </h4>
         </div>
       </div>

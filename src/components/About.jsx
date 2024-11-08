@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, num, maxNum }) => {
   useEffect(() => {
     if (inView) {
       const totalDuration = 1900; // Total animation duration in milliseconds
-      const steps = 50; // Total number of steps (adjust this for smoothness)
+      const steps = 40; // Total number of steps (adjust this for smoothness)
       const globalIncrement = maxNum / steps; // Global step increment based on max number
 
       const interval = setInterval(() => {

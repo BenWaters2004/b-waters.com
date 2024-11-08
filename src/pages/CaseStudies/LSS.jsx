@@ -1,11 +1,10 @@
-import { Navbar, Footer, Contact, StarsCanvas, ClassifiedCont } from "../../components";
+import { Navbar, Footer, Contact, StarsCanvas, LSSCont } from "../../components";
 
-export default function Classified() {
+export default function LSS() {
   return (
     <section className="relative z-0 bg-primary">
       <Navbar />
-      <ClassifiedCont />
-      
+      <LSSCont />
       <div className='relative z-0'>
         <Contact />
         <StarsCanvas />
