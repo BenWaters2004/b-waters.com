@@ -1,10 +1,10 @@
-import { Navbar, Footer, Contact, StarsCanvas } from "../../components";
+import { Navbar, Footer, Contact, StarsCanvas, BITTrainingCont } from "../../components";
 
 export default function BITTraining() {
   return (
     <section className="relative z-0 bg-primary">
       <Navbar />
-      <h1>BITTraining</h1>
+      <BITTrainingCont />
       
       <div className='relative z-0'>
         <Contact />

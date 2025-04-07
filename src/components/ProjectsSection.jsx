@@ -10,10 +10,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 
-
-
-
-
 const ProjectsSection = () => {
   const [activeFilter, setActiveFilter] = useState("All"); // Default to 'All' projects
   const [searchTerm, setSearchTerm] = useState(""); // For search functionality

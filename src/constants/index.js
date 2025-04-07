@@ -21,7 +21,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "BIT Training ",
+    title: "BIT Training",
     description: "Created for BluescreenIT with WordPress to allow the use of Arlo's plugin. It includes features such as Arlo Training Courses, apprenticeship offers and a News Blog.",
     image: BITTraining,
     tag: ["Highlighted", "All", "Web", "website", "WordPress"],
@@ -63,7 +63,7 @@ const projectsData = [
     image: LSS,
     tag: ["Highlighted", "All", "Web", "website", "JavaScript", "React", "Vite"],
     gitUrl: "https://github.com/BenWaters2004/LSS",
-    previewUrl: "https://demo.b-waters.com",
+    previewUrl: "https://lewisscaffoldsolutions.com/",
   },
 ];
 
@@ -89,11 +89,11 @@ const SocialLinks = [
   },
   {
     title: "Website Visits",
-    num: "40000",
+    num: "50000",
   },
   {
-    title: "reviews coming soon",
-    num: "0"
+    title: "Happy Clients",
+    num: "4"
   },
   {
     title: "Years Experience",

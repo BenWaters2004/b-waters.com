@@ -7,7 +7,7 @@ import { textVariant } from "../utils/motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { EyeIcon } from "@heroicons/react/24/outline";
-import { LSSdesign1, LSSdesign2, LSSdesign3 } from "../assets";
+import { ClassifiedPic1, ClassifiedPic2, ClassifiedPic3 } from "../assets";
 
 
 
@@ -50,24 +50,24 @@ const ClassifiedCont = () => {
       <p><strong>Site Admin</strong></p>
       <p className="ml-6">These are individuals slected by the organisation to manage/monitor their candidates, usually HR or Security Controllers. They can only view the candidates for their organisation however a super admin can give them access to anouther organisation if that organisation has consented to it. From these accounts they can add new candidates, track the progress of existing candidates and view the final report also known as a virtual record for a candidates clearance. Site admins can only be added by a super admin.</p>
       <p><strong>Super Admin</strong></p>
-      <p className="ml-6">These users are only Bluescreen IT employees - me as the devloper and the full time admin team. </p>
+      <p className="ml-6">These users are only Bluescreen IT employees - me as the devloper and the full time admin team. They have access to all candidates and can manage site admins. Super admins check through candidates infomation before submission to DBS as well as chance up refrences and ensure all need documentation is provided.</p>
 
 
       {/* Design Concepts */}
       <div className="flex justify-between mt-4">
         <div className="w-[30%]">
-          <img src={LSSdesign1} alt="Design 1" className="w-fullobject-cover" />
+          <img src={ClassifiedPic1} alt="Design 1" className="w-fullobject-cover" />
         </div>
         <div className="w-[30%] mx-2">
-          <img src={LSSdesign2} alt="Design 2" className="w-full object-cover" />
+          <img src={ClassifiedPic2} alt="Design 2" className="w-full object-cover" />
         </div>
         <div className="w-[30%]">
-          <img src={LSSdesign3} alt="Design 3" className="w-full object-cover" />
+          <img src={ClassifiedPic3} alt="Design 3" className="w-full object-cover" />
         </div>
       </div>
 
       
-      <p className="mt-12">The project is hosted on a cloud linux virtual private server unfortunately I cannot provide any further details for security.</p><br />
+      <p className="mt-12">All users require a 14 character password and MFA. To adhere to GDPR all completed applications are removed from the system after a month and anyone can withdraw at any point. The project is heavily encrypted due to containing personal infomation, the project is hosted on a cloud linux virtual private server, unfortunately I cannot provide any further details for security.</p><br />
       <p></p>
 
 

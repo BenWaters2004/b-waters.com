@@ -25,7 +25,7 @@ const LSSCont = () => {
           <span className="text-[#13ab88]">{"<"}</span>For Lewis Scaffold Solutions<span className="text-[#13ab88]">{"/>"}</span>
         </p>
         <h2 className={styles.sectionHeadText}>Scaffolding Website.</h2>
-        <p className={styles.sectionSubText}>Project Completed on ??/??/20??</p>
+        <p className={styles.sectionSubText}>Project Completed on 10/11/2024</p>
       </motion.div>
 
       <img src={lssProject?.image} alt="LSS Website Image" className="w-[full] md:w-[50%] my-12 items-center" />
@@ -64,7 +64,7 @@ const LSSCont = () => {
       </div>
 
       <p className="mt-12">After the Client looked over the designs, his favorite was the second design shown above. He didn't want to make any changes to this design other than some of the wording and so I got straight to work on developing it.</p><br />
-      <p>Project not yet complete</p>
+      <p>I created the website using JavaScript and React with Email Js for the contact section. I think its fair to say we are both happy with the outcome, it has been a joy to work with Lewis Scaffold Solutions. We do have anouther larger project in the works together and I can't wait to get started.</p>
       {/* Button Links */}
       <div className="flex space-x-4 my-4">
         <a href="/" className="flex items-center px-4 py-2 bg-black text-white border border-gray-400 rounded-md hover:border-[#13ab88]"><FontAwesomeIcon icon={faArrowLeft} className="h-5 w-5 mr-2" /> Back</a>

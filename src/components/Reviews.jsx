@@ -9,10 +9,10 @@ const Reviews = () => {
   return (
     <section>
       <motion.div variants={textVariant()} className="mt-20">
-        <p className={`${styles.sectionSubText} `}><span className="text-[#13ab88]">{"<"}</span>Reviews <span className="text-[#13ab88]">{"/>"}</span></p>
-        <h2 className={`${styles.sectionHeadText}`}>Feedback.</h2>
+        <p className={`${styles.sectionSubText} `}><span className="text-[#13ab88]">{"<"}</span>Qualifications <span className="text-[#13ab88]">{"/>"}</span></p>
+        <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
       </motion.div>
-      <h2>Reviews Section Coming Soon</h2>
+      <h2>Section Coming Soon</h2>
     </section>
   );
 };
