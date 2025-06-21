@@ -12,7 +12,6 @@ import PrivacyStatement from './PrivacyStatement';
 import BITSecurityCont from './BITSecurityCont';
 import LSSCont from './LSSCont';
 import ClassifiedCont from './ClassifiedCont';
-import ArterneCont from './ArterneCont';
 import BITTrainingCont from './BITTrainingCont';
 
 
@@ -32,6 +31,5 @@ export {
   BITSecurityCont,
   LSSCont,
   ClassifiedCont,
-  ArterneCont,
   BITTrainingCont,
 };

@@ -82,16 +82,16 @@ const ProjectsSection = () => {
             All
           </button>
           <button
-            onClick={() => setActiveFilter("Web")}
-            className={activeFilter === "Web" ? "active" : ""}
+            onClick={() => setActiveFilter("PHP")}
+            className={activeFilter === "PHP" ? "active" : ""}
           >
-            Websites
+            PHP
           </button>
           <button
-            onClick={() => setActiveFilter("Mobile")}
-            className={activeFilter === "Mobile" ? "active" : ""}
+            onClick={() => setActiveFilter("JavaScript")}
+            className={activeFilter === "JavaScript" ? "active" : ""}
           >
-            Mobile
+            JavaScript
           </button>
         </div>
       </div>

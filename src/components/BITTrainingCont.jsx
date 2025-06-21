@@ -4,10 +4,9 @@ import { styles } from "../styles";
 import { projectsData } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { LSSdesign1, LSSdesign2, LSSdesign3 } from "../assets";
+import { BITTrainingHome, BITTrainingAbout, BITTrainingBootcamp } from "../assets";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { EyeIcon } from "@heroicons/react/24/outline";
 
 
@@ -43,10 +42,20 @@ const BITTrainingCont = () => {
       </div>
 
       {/* Company Description */}
-      <p>BIT Training provides cyber security training to indivduals and organisations. This includes Apprenticeships, Skill Bootcamps and certifications with promanant partnerships like: the National Cyber Security Center, Crown Commercial Services, Cyber Hub, ISC2, ISACA, CompTIA and ITIL. BIT Training also has strong roots with Ministry of Defence, taking on several security contracts and providing ELCAS funded courses for MoD leavers.</p><br />
-      <p>This website was built with WordPress, to allow the use of the Arlo plugin which is used to provide a portal to training courses and for international use by partners like CyberNordic.</p><br />
+      <p>BIT Training provides cyber security training to indivduals and organisations. This includes Apprenticeships, Skill Bootcamps and certifications with promanant partnerships like: the National Cyber Security Center, Crown Commercial Services, Cyber Hub, ISC2, ISACA, CompTIA and ITIL. BIT Training also has strong roots with Ministry of Defence, taking on several security contracts and providing ELCAS funded courses for MoD leavers, as a result winning a Silver Armed Forces Covenants Employer Recognition Award.</p><br />
+      <p>This website was built with WordPress, to allow the use of the Arlo plugin which is used to provide a portal to training courses. This was esspessially important to allow the courses to be instantly updated internationaly with out partners like CyberNordic. The design matches with BIT Group's other websites in order to keep a uniform and consistant look throughout the company.</p><br />
       <p></p><br />
-      <p></p>
+      <div className="flex justify-between mt-4">
+        <div className="w-[30%]">
+          <img src={BITTrainingHome} alt="BIT Security Home page" className="w-fullobject-cover" />
+        </div>
+        <div className="w-[30%] mx-2">
+          <img src={BITTrainingAbout} alt="BIT Security About page" className="w-full object-cover" />
+        </div>
+        <div className="w-[30%]">
+          <img src={BITTrainingBootcamp} alt="BIT Security Packages page" className="w-full object-cover" />
+        </div>
+      </div>
 
 
       {/* Button Links */}
